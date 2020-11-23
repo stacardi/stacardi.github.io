@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    min-height: 100vh;
+}
+.header{
+    padding-top: 44px;
+    background: url(/img/bg.png) center center no-repeat;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+
+}
+.menu a{
+    margin-right: 100px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2.8px;
+}
+.menu a:last-child{
+    margin-right: 0px;
+}
+.header-text{
+    text-align: center;
+    margin-top: 150px;
+}
+.header-text h1{
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+.header p{
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 4.2px;
+}
+.header button{
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    margin-top: 22px;
+    padding: 20px 80px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: normal;
+    transition: ease-in .25s all;
+}
+.header button:hover{
+    background-color: white;
+    color: black;
+}
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-text span{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2.52px;
+}
+.about-text h2{
+    margin-top: 32px;
+    margin-bottom: 54px;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4.2px;
+}
+.about-text p{
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3.08px;
+    color: #5b5b5c;
+    margin-bottom: 54px;
+}
+.about img{
+    width: 600px;
+    height: 900px;
+}
+.about button{
+    border: black solid 2px;
+    cursor: pointer;
+    padding: 20px 80px;
+    background-color: transparent;
+    font-size: 18px;
+    letter-spacing: normal;
+    transition: ease-in .25s all;
+}
+.about button:hover{
+    background-color: black;
+    color: white;
+}
+.photos{
+    text-align: center;
+    margin-top: 100px;
+}
+.photos-text h2{
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7.2px;
+}
+.photos-text p{
+    margin-top: 36px;
+    margin-bottom: 100px;
+    color: #5b5b5c;
+    font-size: 28px;
+    font-weight: 500;
+}
+.photo-wrap img{
+    margin: 10px;
+}
+.company{
+    margin-bottom: 160px;
+}   
+.company-text{
+    text-align: center;
+}
+.company-text h2{
+    margin-top: 200px;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 7.2px;
+}
+.company-text p{
+    margin-top: 36px;
+    margin-bottom: 65px;
+    color: #5b5b5c;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 4.2px;
+}
+.company-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.company-block-1{
+    margin-right: 34px;
+}
+.company-block h3{
+    margin-bottom: 55px;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 6px;
+}
+.company-block p{
+    color: #848484;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 3.8px;
+}
+.company-block button{
+    cursor: pointer;
+    margin-top: 50px;
+    padding: 15px 25px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3.2px;
+    transition: ease-in .025s all;
+}
+.company-block button:hover{
+    background-color: #ccc;
+}
+.company-block img{
+    margin-bottom: 65px;
+    width: 821px;
+    height: 422px;
+}
+
+.next-tour.png{
+    width: 690px;
+    height: 971px;
+    box-shadow: 14px 15px 46px 1px rgba(0, 0, 0, 0.18);
+}
+.send{
+    padding: 150px 0;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.send-text {
+    margin-right: 111px;
+}
+.send-text h2{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4.2px;
+}
+.send-text p{
+    color: #5b5b5c;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2.52px;
+    }
+form {
+    display: flex;
+}
+input{
+    margin-right: 60px;
+    background-color: transparent;
+    border: 3px solid #7a7a7a;
+    padding: 27px 32px;
+    color: #3a4047;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3.08px;
+    }
+.send button{
+    border: none;
+    background-color:#3a4047;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3.08px;
+    padding: 27px 87px;
+    cursor: pointer;
+    transition: .25s ease-in all;
+}
+.send button:hover{
+    background-color: white;
+    color: #3a4047;
+    border: 2px solid black;
+}
+.footer{
+    text-align: center;
+    padding: 95px 0;
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3.08px;
+}
+.footer p{
+    margin-top: 66px;
+}
+.footer-menu a{
+    text-decoration: none;
+    color: black;
+    margin-right: 55px;
+}
+.footer-menu a:last-child{
+    margin-right: 0;  
+}
