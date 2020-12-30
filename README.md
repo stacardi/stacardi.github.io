@@ -1,2 +1,2 @@
 # stacardi.github.io
-Travel site
+Travel site. PC version
